@@ -73,5 +73,5 @@ Proyek ini terbuka untuk semua peserta bootcamp **VS Code by Numen** di bawah li
 
 ---  
 
-✨ **Dibangun dengan semangat retro oleh Numen & peserta bootcamp!** ✨  
+✨ **Dibuat dengan cinta oleh Numen untuk para peserta bootcamp!** ✨  
 ```
