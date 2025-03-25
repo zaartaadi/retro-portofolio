@@ -15,7 +15,7 @@
 
 #### **Option 2: Clone dengan Git (Jika Terinstal)**  
 ```bash
-git clone https://github.com/[nama-repo].git
+git clone https://github.com/numen111104/retro-portofolio.git
 ```
 
 ---
