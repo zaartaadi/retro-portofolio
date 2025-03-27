@@ -1,250 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Retro Website</title>
-  <link rel="stylesheet" href="./styles.css">
-  <!-- Font Awesome untuk icon -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-  <!-- Layout Utama -->
-  <div class="container">
-    <!-- Navbar -->
-    <header class="navbar">
-      <div class="browser-bar">
-        <div class="browser-controls">
-          <div class="control yellow"></div>
-          <div class="control green"></div>
-          <div class="control red"></div>
-        </div>
-        
-        <div class="address-bar">
-          <span>www.yourwebsite.com</span>
-        </div>
-        
-        <div class="window-controls">
-          <button class="window-btn">_</button>
-          <button class="window-btn">□</button>
-          <button class="window-btn">×</button>
-        </div>
-      </div>
-      
-      <nav class="nav-menu">
-        <ul>
-          <li class="active">
-            <a href="#home">
-              <i class="fas fa-home"></i>
-              <span>Home</span>
-            </a>
-          </li>
-          <li>
-            <a href="#about">
-              <i class="fas fa-user"></i>
-              <span>About</span>
-            </a>
-          </li>
-          <li>
-            <a href="#projects">
-              <i class="fas fa-folder"></i>
-              <span>Projects</span>
-            </a>
-          </li>
-          <li>
-            <a href="#contact">
-              <i class="fas fa-envelope"></i>
-              <span>Contact</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    
-    <!-- Konten Utama -->
-    <main class="content">
-      <div class="profile-card-container">
-        <!-- Profile Card Kiri -->
-        <div class="profile-card">
-          <div class="card-inner">
-            <!-- Bagian Depan Kartu -->
-            <div class="card-front teal">
-              <div class="card-header">
-                <div class="browser-controls">
-                  <div class="control yellow"></div>
-                  <div class="control green"></div>
-                  <div class="control red"></div>
-                </div>
-                <div class="card-title">About Me</div>
-                <div class="window-controls">
-                  <button class="window-btn">×</button>
-                </div>
-              </div>
-              <div class="card-content">
-                <div class="profile-image"></div>
-                <h3>About Me</h3>
-                <p>Frontend Developer</p>
-                <div class="flip-hint">(Click to flip)</div>
-              </div>
-            </div>
-            
-            <!-- Bagian Belakang Kartu -->
-            <div class="card-back teal">
-              <div class="card-header">
-                <div class="browser-controls">
-                  <div class="control yellow"></div>
-                  <div class="control green"></div>
-                  <div class="control red"></div>
-                </div>
-                <div class="card-title">Skills</div>
-                <div class="window-controls">
-                  <button class="window-btn">×</button>
-                </div>
-              </div>
-              <div class="card-content">
-                <h3>Skills</h3>
-                <ul class="skill-list">
-                  <li><div class="bullet"></div>HTML</li>
-                  <li><div class="bullet"></div>CSS</li>
-                  <li><div class="bullet"></div>JavaScript</li>
-                  <li><div class="bullet"></div>UI/UX Design</li>
-                </ul>
-                <div class="flip-hint">(Click to flip back)</div>
-              </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Website</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font Awesome untuk icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Layout Utama -->
+    <div class="container">
+      <!-- Navbar -->
+      <header class="navbar">
+        <div class="browser-bar">
+          <div class="browser-controls">
+            <div class="control yellow"></div>
+            <div class="control green"></div>
+            <div class="control red"></div>
           </div>
-        </div>
-        
-        <!-- Konten Tengah -->
-        <div class="main-content">
-          <div class="window">
-            <div class="card-header">
-              <div class="browser-controls">
-                <div class="control yellow"></div>
-                <div class="control green"></div>
-                <div class="control red"></div>
-              </div>
-              <div class="card-title">Welcome</div>
-              <div class="window-controls">
-                <button class="window-btn">×</button>
-              </div>
-            </div>
-            
-            <div class="window-content">
-              <div class="text-center">
-                <h1>Retro Website</h1>
-                <p>A nostalgic journey back to the early web</p>
-              </div>
-              
-              <section class="content-section">
-                <h2 class="section-title yellow-bg">About Me</h2>
-                <p>Welcome to my retro-inspired website! I'm a developer who loves creating unique web experiences that blend nostalgia with modern functionality.</p>
-              </section>
-              
-              <section class="content-section">
-                <h2 class="section-title teal-bg">My Projects</h2>
-                <div class="projects-grid">
-                  <div class="project-card">
-                    <div class="project-image pink-bg"></div>
-                    <h3>Project 1</h3>
-                    <p>A retro-inspired web application</p>
-                  </div>
-                  <div class="project-card">
-                    <div class="project-image yellow-bg"></div>
-                    <h3>Project 2</h3>
-                    <p>A nostalgic UI component library</p>
-                  </div>
-                </div>
-              </section>
-              
-              <section class="content-section">
-                <h2 class="section-title pink-bg">Contact</h2>
-                <div class="contact-info">
-                  <div class="contact-item">
-                    <div class="contact-bullet teal-bg"></div>
-                    <span>email@example.com</span>
-                  </div>
-                  <div class="contact-item">
-                    <div class="contact-bullet yellow-bg"></div>
-                    <span>@username</span>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Profile Card Kanan -->
-        <div class="profile-card">
-          <div class="card-inner">
-            <!-- Bagian Depan Kartu -->
-            <div class="card-front yellow">
-              <div class="card-header">
-                <div class="browser-controls">
-                  <div class="control yellow"></div>
-                  <div class="control green"></div>
-                  <div class="control red"></div>
-                </div>
-                <div class="card-title">Contact</div>
-                <div class="window-controls">
-                  <button class="window-btn">×</button>
-                </div>
-              </div>
-              <div class="card-content">
-                <div class="profile-image"></div>
-                <h3>Contact</h3>
-                <p>Get in touch</p>
-                <div class="flip-hint">(Click to flip)</div>
-              </div>
-            </div>
-            
-            <!-- Bagian Belakang Kartu -->
-            <div class="card-back yellow">
-              <div class="card-header">
-                <div class="browser-controls">
-                  <div class="control yellow"></div>
-                  <div class="control green"></div>
-                  <div class="control red"></div>
-                </div>
-                <div class="card-title">Links</div>
-                <div class="window-controls">
-                  <button class="window-btn">×</button>
-                </div>
-              </div>
-              <div class="card-content">
-                <h3>Links</h3>
-                <ul class="skill-list">
-                  <li><div class="bullet"></div>GitHub</li>
-                  <li><div class="bullet"></div>LinkedIn</li>
-                  <li><div class="bullet"></div>Twitter</li>
-                  <li><div class="bullet"></div>Email</li>
-                </ul>
-                <div class="flip-hint">(Click to flip back)</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-  </div>
 
-  <script>
-    // JavaScript sederhana untuk flip card
-    document.querySelectorAll('.profile-card').forEach(card => {
-      card.addEventListener('click', function() {
-        this.querySelector('.card-inner').classList.toggle('is-flipped');
-      });
-    });
+          <div class="address-bar">
+            <span>www.yourwebsite.com</span>
+          </div>
 
-    // JavaScript untuk navigasi
-    document.querySelectorAll('.nav-menu li').forEach(item => {
-      item.addEventListener('click', function() {
-        document.querySelectorAll('.nav-menu li').forEach(i => {
-          i.classList.remove('active');
+          <div class="window-controls">
+            <button class="window-btn">_</button>
+            <button class="window-btn">□</button>
+            <button class="window-btn">×</button>
+          </div>
+        </div>
+
+        <nav class="nav-menu">
+          <ul>
+            <li class="active">
+              <a href="#home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about">
+                <i class="fas fa-user"></i>
+                <span>About</span>
+              </a>
+            </li>
+            <li>
+              <a href="#projects">
+                <i class="fas fa-folder"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <i class="fas fa-envelope"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Konten Utama -->
+      <main class="content">
+        <div class="profile-card-container">
+          <!-- Profile Card Kiri -->
+          <div class="profile-card">
+            <div class="card-inner">
+              <!-- Bagian Depan Kartu -->
+              <div class="card-front teal">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Profile</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <img
+                    class="profile-image"
+                    src="https://avatars.githubusercontent.com/u/101313967?v=4"
+                    alt=""
+                  />
+                  <h3>Bekerja Sebagai</h3>
+                  <p>Fullstack Developer</p>
+                  <p>IDN Boarding School</p>
+                  <div class="flip-hint">(Click to flip)</div>
+                </div>
+              </div>
+
+              <!-- Bagian Belakang Kartu -->
+              <div class="card-back teal">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Skills</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Tech Stacks</h3>
+                  <ul class="skill-list">
+                    <li>
+                      <div class="bullet"></div>
+                      Tailwind CSS
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Livewire
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Laravel
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Alpine.js
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      MySql
+                    </li>
+                  </ul>
+                  <div class="flip-hint">(Click to flip back)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Konten Tengah -->
+          <div class="main-content">
+            <div class="window">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">Welcome</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+
+              <div class="window-content">
+                <div class="text-center">
+                  <h1>Portofolio Website</h1>
+                  <p>Dengan nuansa retro dan modern</p>
+                </div>
+
+                <section class="content-section">
+                  <h2 class="section-title yellow-bg">Tentang Saya</h2>
+                  <p>
+                    Selamat datang di situs web saya yang terinspirasi retro!
+                    Saya seorang pengembang yang suka membuat pengalaman web
+                    unik yang menggabungkan nostalgia dengan fungsionalitas
+                    modern.
+                  </p>
+                </section>
+
+                <section class="content-section">
+                  <h2 class="section-title teal-bg">Projek-Projek</h2>
+                  <div class="projects-grid">
+                    <div class="project-card">
+                      <img
+                        src="./projects/pmb_idn.png"
+                        alt="PMB IDN"
+                        class="project-image"
+                      />
+                      <h3>PMB IDN</h3>
+                      <p>
+                        Web Sistem Untuk Penerimaan Mahasiswa Baru Politeknik
+                        IDN Bogor
+                      </p>
+                    </div>
+                    <div class="project-card">
+                      <img
+                        class="project-image"
+                        src="./projects/e-employee.PNG"
+                        alt="E-Employee IDN"
+                      />
+                      <h3>E-Employee IDN</h3>
+                      <p>
+                        Web Sistem untuk mengelola karyawan di IDN Boarding
+                        School
+                      </p>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="content-section">
+                  <h2 class="section-title pink-bg">Kontak</h2>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <div class="contact-bullet teal-bg"></div>
+                      <span>numannasyarmz11@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                      <div class="contact-bullet yellow-bg"></div>
+                      <span>Nu'man Nasyar MZ</span>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Card Kanan -->
+          <div class="profile-card">
+            <div class="card-inner">
+              <!-- Bagian Depan Kartu -->
+              <div class="card-front yellow">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Sosmed</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <img
+                    class="profile-image"
+                    src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+                    alt="Github Logo"
+                  />
+                  <h3>Sosial Media</h3>
+                  <p>Get in touch</p>
+                  <div class="flip-hint">(Click to flip)</div>
+                </div>
+              </div>
+
+              <!-- Bagian Belakang Kartu -->
+              <div class="card-back yellow">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Links</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Links</h3>
+                  <ul class="skill-list">
+                    <li>
+                      <div class="bullet"></div>
+                      GitHub
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      LinkedIn
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Twitter
+                    </li>
+                    <li>
+                      <div class="bullet"></div>
+                      Email
+                    </li>
+                  </ul>
+                  <div class="flip-hint">(Click to flip back)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      // JavaScript sederhana untuk flip card
+      document.querySelectorAll(".profile-card").forEach((card) => {
+        card.addEventListener("click", function () {
+          this.querySelector(".card-inner").classList.toggle("is-flipped");
         });
-        this.classList.add('active');
       });
-    });
-  </script>
-</body>
+
+      // JavaScript untuk navigasi
+      document.querySelectorAll(".nav-menu li").forEach((item) => {
+        item.addEventListener("click", function () {
+          document.querySelectorAll(".nav-menu li").forEach((i) => {
+            i.classList.remove("active");
+          });
+          this.classList.add("active");
+        });
+      });
+    </script>
+  </body>
 </html>
