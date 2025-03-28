@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f9f7e8;
+  background-color: #FFF8E1;
   position: relative;
 }
 
@@ -39,7 +39,7 @@ body::before {
 }
 
 .browser-bar {
-  background-color: #ff6b6b;
+  background-color: #FFCC80 ;
   border: 2px solid black;
   border-bottom: none;
   border-radius: 8px 8px 0 0;
@@ -62,22 +62,22 @@ body::before {
   border: 1px solid black;
 }
 
+.red {
+  background-color: #e72d1c;
+}
+
 .yellow {
-  background-color: #ffd166;
+  background-color: #F9E400;
 }
 
 .green {
-  background-color: #4ecdc4;
-}
-
-.red {
-  background-color: #ff6b6b;
+  background-color: #059212;
 }
 
 .address-bar {
   flex: 1;
   margin: 0 16px;
-  background-color: white;
+  background-color: blanchedalmond;
   border: 2px solid black;
   border-radius: 4px;
   padding: 4px 8px;
@@ -96,9 +96,9 @@ body::before {
 .window-btn {
   width: 24px;
   height: 24px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 4px;
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,7 +107,7 @@ body::before {
 }
 
 .nav-menu {
-  background-color: #4ecdc4;
+  background-color: #FFF3B0;
   padding: 8px;
   border: 2px solid black;
   border-top: none;
@@ -138,7 +138,7 @@ body::before {
 }
 
 .nav-menu li.active a {
-  background-color: white;
+  background-color: blanchedalmond;
   border: 2px solid black;
   box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
 }
@@ -168,7 +168,7 @@ body::before {
 /* Profile Card Styles */
 .profile-card {
   width: 100%;
-  height: 350px;
+  height: 280px;
   perspective: 1000px;
   cursor: pointer;
 }
@@ -202,15 +202,15 @@ body::before {
 }
 
 .teal {
-  background-color: #4ecdc4;
+  background-color: #FFCC80;
 }
 
 .yellow {
-  background-color: #ffd166;
+  background-color: #FFCC80;
 }
 
 .pink-bg {
-  background-color: #ff6b6b;
+  background-color: #ffd166;
 }
 
 .card-header {
@@ -229,7 +229,7 @@ body::before {
 .card-content {
   height: calc(100% - 40px);
   padding: 16px;
-  background-color: white;
+  background-color: #FFF3B0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -264,8 +264,9 @@ body::before {
 }
 
 .bullet {
-  width: 12px;
-  height: 12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
   background-color: #ffd166;
   border: 1px solid black;
 }
@@ -281,7 +282,7 @@ body::before {
   border-radius: 8px;
   box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
   overflow: hidden;
-  background-color: white;
+  background-color: #FFF3B0;
 }
 
 .window-content {
@@ -306,13 +307,16 @@ body::before {
   border: 1px solid black;
 }
 
+
+
 .yellow-bg {
   background-color: #ffd166;
 }
 
 .teal-bg {
-  background-color: #4ecdc4;
+  background-color: #ffd166;
 }
+
 
 .projects-grid {
   display: grid;
@@ -320,24 +324,14 @@ body::before {
   gap: 16px;
 }
 
-.project-card {
-  border: 2px solid black;
-  padding: 12px;
-  background-color: #f9f7e8;
-}
 
-.project-image {
-  height: 180px;
-  border: 1px solid black;
-  margin-bottom: 8px;
-  width: 100%;
-}
 
 .contact-info {
   border: 2px solid black;
   padding: 16px;
-  background-color: #f9f7e8;
+  background-color: blanchedalmond;
 }
+
 
 .contact-item {
   display: flex;
@@ -351,6 +345,8 @@ body::before {
   height: 16px;
   border: 1px solid black;
 }
+
+
 
 /* Responsive Styles */
 @media (min-width: 768px) {
